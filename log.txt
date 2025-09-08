@@ -2,3 +2,7 @@ Updates and Bug fixes, outstanding tasks and progress
 
 08/09/25 - Updated .ignore file to not upload db.sql
          - Added Log file
+         - Added forms.py, added register.html
+         - Added register route in urls
+         - Added register to the view
+         - Next slide 45.
