@@ -7,5 +7,16 @@
 
 <a href="{% url '' %}">Home</a>
 
+<form method="POST">
+    {% csrf_token %}
+    {{form}}
+    <br>
+    <button type="submit">
+        Login
+    </button>
+
+
+
+</form>
 
 {% endblock %}

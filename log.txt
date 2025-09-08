@@ -5,4 +5,4 @@ Updates and Bug fixes, outstanding tasks and progress
          - Added forms.py, added register.html
          - Added register route in urls
          - Added register to the view
-         - Next slide 45.
+         - Added Login and logout
