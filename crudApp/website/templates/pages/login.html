@@ -1,15 +1,15 @@
 {% extends 'pages/base.html' %}
-
+{% load crispy_forms_tags %}
 
 {% block content %}
 
 <h1>Login Page</h1>
 
 <a href="{% url '' %}">Home</a>
-
+    <div class="container bg-dark p-5">
 <form method="POST">
     {% csrf_token %}
-    {{form}}
+    {{form|crispy}}
     <br>
     <button type="submit">
         Login
@@ -18,5 +18,5 @@
 
 
 </form>
-
+</div>
 {% endblock %}
