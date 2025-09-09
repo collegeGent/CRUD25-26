@@ -17,7 +17,14 @@ class LoginForm(AuthenticationForm):
     username = forms.CharField(widget = TextInput())
     password = forms.CharField(widget = PasswordInput())
 
+# Create a User Record
 class CreateRecordForm(forms.ModelForm):
-        class Meta:
-             model = Record
-             fields = ['first_name','last_name','email', 'phone','address','city']
+    class Meta:
+        model = Record
+        fields = ['first_name','last_name','email', 'phone','address','city']
+
+# Update a user record
+class UpdateRecordForm(forms.ModelForm):
+    class Meta:
+        model = Record
+        fields = ['first_name','last_name','email', 'phone','address','city']         

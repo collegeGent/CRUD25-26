@@ -11,3 +11,5 @@ Updates and Bug fixes, outstanding tasks and progress
          - Added Create Record Model
          - Added Create Record Model to Admin panel
          - Added Create Record Form
+
+09/09/25 - Added Update Record 
