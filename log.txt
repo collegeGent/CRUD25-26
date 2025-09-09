@@ -6,3 +6,8 @@ Updates and Bug fixes, outstanding tasks and progress
          - Added register route in urls
          - Added register to the view
          - Added Login and logout
+
+09/09/25 - Created the dashboard
+         - Added Create Record Model
+         - Added Create Record Model to Admin panel
+         - Added Create Record Form

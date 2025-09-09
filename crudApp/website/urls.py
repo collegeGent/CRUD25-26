@@ -7,4 +7,6 @@ urlpatterns = [
   #path('store', views.store, name="store"),
   path('register', views.register, name="register"),
   path('logout', views.logout, name="logout"),
+  path('dashboard', views.dashboard, name="dashboard"),
+  path('create_record', views.create_record, name="create_record"),
 ]
